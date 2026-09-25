@@ -49,4 +49,10 @@ npm run migration:revert
 
 # Создание пустой миграции с названием ${NAME}
 npm run migration:create ${NAME}
+
+# Генерация миграции на основе изменений в сущностях
+npm run migration:generate ${NAME}
+
+# Запуск тестов
+npm run test
 ```
